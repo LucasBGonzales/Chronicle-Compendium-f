@@ -1,0 +1,16 @@
+
+.filter-primary, .hover\:filter-primary:hover {
+  filter: brightness(0%);
+}
+
+.filter-red, hover\:.filter-red:hover {
+  filter: invert(26%) sepia(93%) saturate(7500%) hue-rotate(356deg) brightness(88%) contrast(127%);
+}
+
+.filter-white, .hover\:filter-white:hover {
+  filter: brightness(0%) invert(100%)
+}
+
+.filter-black, .hover\:filter-black:hover {
+  filter: invert(12%) sepia(4%) saturate(4994%) hue-rotate(184deg) brightness(102%) contrast(86%);
+}

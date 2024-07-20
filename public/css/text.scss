@@ -1,0 +1,15 @@
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text_content {
+  @apply text-primary-n font-sans;
+  min-height: 1.7rem;
+}
+
+
+.text_link {
+  @apply text-primary-n hover:text-primary-l hover:underline cursor-pointer;
+}

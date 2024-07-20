@@ -1,0 +1,11 @@
+<nav>
+  <img class="h-full w-auto" ngSrc="/images/chronicle-compendium.png" alt="" height="1024" width="1024">
+  <div class="flex gap-2">
+    @for (item of menuItems(); track item) {
+      <button class="flex items-center gap-2 w-fit" [routerLink]="item.link">
+        <img class="h-full w-auto max-w-6 filter-white" [ngSrc]="item.img" alt="" height="20" width="20">
+        <p [innerHtml]="item.text"></p>
+      </button>
+    }
+  </div>
+</nav>
